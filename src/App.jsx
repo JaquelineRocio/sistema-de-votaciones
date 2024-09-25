@@ -1,7 +1,7 @@
-import SistemaVotacion from './components/SistemaVotacion/SistemaVotacion';
+import { VotingProvider } from './components/VotingProvider/VotingProvider';
 
 function App() {
-  return <SistemaVotacion />;
+  return <VotingProvider />;
 }
 
 export default App;
